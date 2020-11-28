@@ -2,7 +2,11 @@ var expect = require('chai').expect
 var fs = require('fs')
 var path = require('path')
 var expectedNodeVersion = 'v8.16.2'
+<<<<<<< HEAD
 var expectedPlatform = ['win32', 'linux']
+=======
+var expectedPlatform = ['darwin', 'linux']
+>>>>>>> 6df1827e1993ed018e4097c2ae7ae397dba38df1
 var expectedEnv = 'qa'
 
 describe('node', function () {
